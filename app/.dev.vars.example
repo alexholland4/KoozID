@@ -1,0 +1,9 @@
+# Local development settings. Copy to .dev.vars (gitignored).
+# AUTH_MODE=dev only works on localhost; production always verifies Cloudflare Access.
+AUTH_MODE=dev
+DEV_USER_EMAIL=dev@localhost
+# "mock" = deterministic fake AI (no network). Set to "gemini" and add a key to use the real models locally.
+AI_PROVIDER=mock
+# GEMINI_API_KEY=
+# Vectorize has no local emulator; use exact cosine search over D1 locally.
+VECTOR_BACKEND=d1-exact

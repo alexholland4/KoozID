@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+*.log
+scripts/eval/results/
+
+# The collector's real spreadsheet: personal names and places, never committed.
+Koozie - Koozie Tracker.csv
+*Tracker*.csv
+# Downloaded test photos (regenerate with scripts/corpus/*.py); manifest + rejected list are kept.
+fixtures/web-corpus/images/
+fixtures/web-corpus/eval/
+fixtures/web-corpus/candidates.json
+backups/
+import photos/
+
+# Raw photos for import; uploaded to the app, not kept in git
+new import photos/

@@ -1,0 +1,523 @@
+{
+  "note": "Synthetic koozie photos rendered by scripts/fixtures/generate.py. Fictional brands; free to use.",
+  "catalog": [
+    {
+      "key": "lions-2019",
+      "brand": "Lakeside Lions",
+      "tagline": "Fall Classic 2019",
+      "description": "Green koozie with yellow Lakeside Lions Fall Classic 2019 print",
+      "primary_color": "green",
+      "secondary_color": "yellow",
+      "photos": [
+        "cat-lions-2019-front.jpg",
+        "cat-lions-2019-back.jpg"
+      ]
+    },
+    {
+      "key": "gulf-shores",
+      "brand": "Gulf Shores",
+      "tagline": "Sun \u00b7 Sand \u00b7 Suds",
+      "description": "Sky koozie with white Gulf Shores Sun \u00b7 Sand \u00b7 Suds print",
+      "primary_color": "sky",
+      "secondary_color": "white",
+      "photos": [
+        "cat-gulf-shores-front.jpg",
+        "cat-gulf-shores-back.jpg"
+      ]
+    },
+    {
+      "key": "smith-reunion",
+      "brand": "Smith Family",
+      "tagline": "Reunion 2021",
+      "description": "Orange koozie with black Smith Family Reunion 2021 print",
+      "primary_color": "orange",
+      "secondary_color": "black",
+      "photos": [
+        "cat-smith-reunion-front.jpg"
+      ]
+    },
+    {
+      "key": "hoppy-trails",
+      "brand": "Hoppy Trails",
+      "tagline": "Brewing Co.",
+      "description": "Black koozie with gold Hoppy Trails Brewing Co. print",
+      "primary_color": "black",
+      "secondary_color": "gold",
+      "photos": [
+        "cat-hoppy-trails-front.jpg",
+        "cat-hoppy-trails-back.jpg"
+      ]
+    },
+    {
+      "key": "bayou-bash",
+      "brand": "Bayou Bash",
+      "tagline": "Crawfish Boil",
+      "description": "Purple koozie with gold Bayou Bash Crawfish Boil print",
+      "primary_color": "purple",
+      "secondary_color": "gold",
+      "photos": [
+        "cat-bayou-bash-front.jpg"
+      ]
+    },
+    {
+      "key": "mile-high",
+      "brand": "Mile High",
+      "tagline": "Golf Classic",
+      "description": "Navy koozie with white Mile High Golf Classic print",
+      "primary_color": "navy",
+      "secondary_color": "white",
+      "photos": [
+        "cat-mile-high-front.jpg",
+        "cat-mile-high-back.jpg"
+      ]
+    },
+    {
+      "key": "big-catch",
+      "brand": "Big Catch",
+      "tagline": "Bait & Tackle",
+      "description": "Camo koozie with orange Big Catch Bait & Tackle print",
+      "primary_color": "camo",
+      "secondary_color": "orange",
+      "photos": [
+        "cat-big-catch-front.jpg"
+      ]
+    },
+    {
+      "key": "cactus-run",
+      "brand": "Cactus Run",
+      "tagline": "5K \u00b7 2018",
+      "description": "Teal koozie with white Cactus Run 5K \u00b7 2018 print",
+      "primary_color": "teal",
+      "secondary_color": "white",
+      "photos": [
+        "cat-cactus-run-front.jpg"
+      ]
+    },
+    {
+      "key": "jenna-mike",
+      "brand": "Jenna & Mike",
+      "tagline": "06.14.2020",
+      "description": "White koozie with pink Jenna & Mike 06.14.2020 print",
+      "primary_color": "white",
+      "secondary_color": "pink",
+      "photos": [
+        "cat-jenna-mike-front.jpg"
+      ]
+    },
+    {
+      "key": "redline-auto",
+      "brand": "Redline Auto",
+      "tagline": "Parts & Service",
+      "description": "Red koozie with white Redline Auto Parts & Service print",
+      "primary_color": "red",
+      "secondary_color": "white",
+      "photos": [
+        "cat-redline-auto-front.jpg",
+        "cat-redline-auto-back.jpg"
+      ]
+    },
+    {
+      "key": "ozark-float",
+      "brand": "Ozark Float",
+      "tagline": "Trip 2017",
+      "description": "Maroon koozie with white Ozark Float Trip 2017 print",
+      "primary_color": "maroon",
+      "secondary_color": "white",
+      "photos": [
+        "cat-ozark-float-front.jpg"
+      ]
+    },
+    {
+      "key": "tailgate-co",
+      "brand": "Tailgate Co.",
+      "tagline": "Game Day Ready",
+      "description": "Gray koozie with red Tailgate Co. Game Day Ready print",
+      "primary_color": "gray",
+      "secondary_color": "red",
+      "photos": [
+        "cat-tailgate-co-front.jpg"
+      ]
+    },
+    {
+      "key": "sunset-marina",
+      "brand": "Sunset Marina",
+      "tagline": "Lake Lanier",
+      "description": "Orange koozie with navy Sunset Marina Lake Lanier print",
+      "primary_color": "orange",
+      "secondary_color": "navy",
+      "photos": [
+        "cat-sunset-marina-front.jpg"
+      ]
+    },
+    {
+      "key": "polar-pub",
+      "brand": "Polar Pub",
+      "tagline": "Keep It Cold",
+      "description": "Royal koozie with white Polar Pub Keep It Cold print",
+      "primary_color": "royal",
+      "secondary_color": "white",
+      "photos": [
+        "cat-polar-pub-front.jpg",
+        "cat-polar-pub-back.jpg"
+      ]
+    },
+    {
+      "key": "lucky-13",
+      "brand": "Lucky 13",
+      "tagline": "Bowling League",
+      "description": "Black koozie with red Lucky 13 Bowling League print",
+      "primary_color": "black",
+      "secondary_color": "red",
+      "photos": [
+        "cat-lucky-13-front.jpg"
+      ]
+    },
+    {
+      "key": "pine-ridge",
+      "brand": "Pine Ridge",
+      "tagline": "Summer Camp",
+      "description": "Green koozie with white Pine Ridge Summer Camp print",
+      "primary_color": "green",
+      "secondary_color": "white",
+      "photos": [
+        "cat-pine-ridge-front.jpg"
+      ]
+    },
+    {
+      "key": "hogs-heat",
+      "brand": "Hogs & Heat",
+      "tagline": "BBQ Cook-Off",
+      "description": "Yellow koozie with black Hogs & Heat BBQ Cook-Off print",
+      "primary_color": "yellow",
+      "secondary_color": "black",
+      "photos": [
+        "cat-hogs-heat-front.jpg"
+      ]
+    },
+    {
+      "key": "coastal-cu",
+      "brand": "Coastal Cu",
+      "tagline": "Member Day",
+      "description": "Teal koozie with white Coastal Cu Member Day print",
+      "primary_color": "teal",
+      "secondary_color": "white",
+      "photos": [
+        "cat-coastal-cu-front.jpg"
+      ]
+    },
+    {
+      "key": "dad-bod",
+      "brand": "Dad Bod",
+      "tagline": "Fan Club",
+      "description": "Navy koozie with orange Dad Bod Fan Club print",
+      "primary_color": "navy",
+      "secondary_color": "orange",
+      "photos": [
+        "cat-dad-bod-front.jpg"
+      ]
+    },
+    {
+      "key": "river-rats",
+      "brand": "River Rats",
+      "tagline": "Tubing Crew",
+      "description": "Sky koozie with black River Rats Tubing Crew print",
+      "primary_color": "sky",
+      "secondary_color": "black",
+      "photos": [
+        "cat-river-rats-front.jpg"
+      ]
+    },
+    {
+      "key": "lions-2019-navy",
+      "brand": "Lakeside Lions",
+      "tagline": "Fall Classic 2019",
+      "description": "Navy koozie with yellow Lakeside Lions Fall Classic 2019 print",
+      "primary_color": "navy",
+      "secondary_color": "yellow",
+      "photos": [
+        "cat-lions-2019-navy-front.jpg",
+        "cat-lions-2019-navy-back.jpg"
+      ]
+    },
+    {
+      "key": "polar-pub-black",
+      "brand": "Polar Pub",
+      "tagline": "Keep It Cold",
+      "description": "Black koozie with white Polar Pub Keep It Cold print",
+      "primary_color": "black",
+      "secondary_color": "white",
+      "photos": [
+        "cat-polar-pub-black-front.jpg",
+        "cat-polar-pub-black-back.jpg"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "file": "q-reshoot-lions-2019.jpg",
+      "design": "lions-2019",
+      "side": "front",
+      "item": "lions-2019",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-gulf-shores.jpg",
+      "design": "gulf-shores",
+      "side": "front",
+      "item": "gulf-shores",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-smith-reunion.jpg",
+      "design": "smith-reunion",
+      "side": "front",
+      "item": "smith-reunion",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-hoppy-trails.jpg",
+      "design": "hoppy-trails",
+      "side": "front",
+      "item": "hoppy-trails",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-bayou-bash.jpg",
+      "design": "bayou-bash",
+      "side": "front",
+      "item": "bayou-bash",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-mile-high.jpg",
+      "design": "mile-high",
+      "side": "front",
+      "item": "mile-high",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-big-catch.jpg",
+      "design": "big-catch",
+      "side": "front",
+      "item": "big-catch",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-cactus-run.jpg",
+      "design": "cactus-run",
+      "side": "front",
+      "item": "cactus-run",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-jenna-mike.jpg",
+      "design": "jenna-mike",
+      "side": "front",
+      "item": "jenna-mike",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-redline-auto.jpg",
+      "design": "redline-auto",
+      "side": "front",
+      "item": "redline-auto",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-ozark-float.jpg",
+      "design": "ozark-float",
+      "side": "front",
+      "item": "ozark-float",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-tailgate-co.jpg",
+      "design": "tailgate-co",
+      "side": "front",
+      "item": "tailgate-co",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-sunset-marina.jpg",
+      "design": "sunset-marina",
+      "side": "front",
+      "item": "sunset-marina",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-polar-pub.jpg",
+      "design": "polar-pub",
+      "side": "front",
+      "item": "polar-pub",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-lucky-13.jpg",
+      "design": "lucky-13",
+      "side": "front",
+      "item": "lucky-13",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-pine-ridge.jpg",
+      "design": "pine-ridge",
+      "side": "front",
+      "item": "pine-ridge",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-hogs-heat.jpg",
+      "design": "hogs-heat",
+      "side": "front",
+      "item": "hogs-heat",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-coastal-cu.jpg",
+      "design": "coastal-cu",
+      "side": "front",
+      "item": "coastal-cu",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-dad-bod.jpg",
+      "design": "dad-bod",
+      "side": "front",
+      "item": "dad-bod",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-river-rats.jpg",
+      "design": "river-rats",
+      "side": "front",
+      "item": "river-rats",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-lions-2019-navy.jpg",
+      "design": "lions-2019-navy",
+      "side": "front",
+      "item": "lions-2019-navy",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-reshoot-polar-pub-black.jpg",
+      "design": "polar-pub-black",
+      "side": "front",
+      "item": "polar-pub-black",
+      "kind": "reshoot"
+    },
+    {
+      "file": "q-back-lions-2019.jpg",
+      "design": "lions-2019",
+      "side": "back",
+      "item": "lions-2019",
+      "kind": "back"
+    },
+    {
+      "file": "q-back-gulf-shores.jpg",
+      "design": "gulf-shores",
+      "side": "back",
+      "item": "gulf-shores",
+      "kind": "back"
+    },
+    {
+      "file": "q-back-hoppy-trails.jpg",
+      "design": "hoppy-trails",
+      "side": "back",
+      "item": "hoppy-trails",
+      "kind": "back"
+    },
+    {
+      "file": "q-back-mile-high.jpg",
+      "design": "mile-high",
+      "side": "back",
+      "item": "mile-high",
+      "kind": "back"
+    },
+    {
+      "file": "q-colorway-hoppy-trails-red.jpg",
+      "design": "hoppy-trails-red",
+      "side": "front",
+      "item": null,
+      "kind": "colorway"
+    },
+    {
+      "file": "q-colorway-bayou-bash-green.jpg",
+      "design": "bayou-bash-green",
+      "side": "front",
+      "item": null,
+      "kind": "colorway"
+    },
+    {
+      "file": "q-colorway-mile-high-white.jpg",
+      "design": "mile-high-white",
+      "side": "front",
+      "item": null,
+      "kind": "colorway"
+    },
+    {
+      "file": "q-redesign-lions-2021.jpg",
+      "design": "lions-2021",
+      "side": "front",
+      "item": null,
+      "kind": "redesign"
+    },
+    {
+      "file": "q-redesign-gulf-shores-24.jpg",
+      "design": "gulf-shores-24",
+      "side": "front",
+      "item": null,
+      "kind": "redesign"
+    },
+    {
+      "file": "q-redesign-cactus-run-22.jpg",
+      "design": "cactus-run-22",
+      "side": "front",
+      "item": null,
+      "kind": "redesign"
+    },
+    {
+      "file": "q-lookalike-lakeview-lynx.jpg",
+      "design": "lakeview-lynx",
+      "side": "front",
+      "item": null,
+      "kind": "lookalike"
+    },
+    {
+      "file": "q-lookalike-coastal-bank.jpg",
+      "design": "coastal-bank",
+      "side": "front",
+      "item": null,
+      "kind": "lookalike"
+    },
+    {
+      "file": "q-lookalike-lucky-7.jpg",
+      "design": "lucky-7",
+      "side": "front",
+      "item": null,
+      "kind": "lookalike"
+    },
+    {
+      "file": "q-novel-taco-tues.jpg",
+      "design": "taco-tues",
+      "side": "front",
+      "item": null,
+      "kind": "novel"
+    },
+    {
+      "file": "q-novel-north-star.jpg",
+      "design": "north-star",
+      "side": "front",
+      "item": null,
+      "kind": "novel"
+    },
+    {
+      "file": "q-novel-buck-wild.jpg",
+      "design": "buck-wild",
+      "side": "front",
+      "item": null,
+      "kind": "novel"
+    }
+  ]
+}

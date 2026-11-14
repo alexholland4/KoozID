@@ -1,0 +1,64 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "koozid",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true },
+
+  // The React app is served as static assets (free, never invokes the Worker) and is public: it
+  // holds no data. /api/* (signed in), /pub/* (guest view) and /signin run the Worker.
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*", "/pub/*", "/signin"]
+  },
+
+  // koozid.com is the only address; the workers.dev URL is off.
+  "workers_dev": false,
+  // Per-version preview URLs are off; the Worker verifies Access JWTs regardless, but there's no need for them.
+  "preview_urls": false,
+  "routes": [{ "pattern": "koozid.com", "custom_domain": true }],
+  // Daily maintenance: erase koozies deleted 30+ days ago and abandoned scans, with their photos.
+  "triggers": { "crons": ["0 9 * * *"] },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "koozid",
+      "database_id": "<your-d1-database-id>",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [{ "binding": "PHOTOS", "bucket_name": "koozid-photos" }],
+  // Dimension is fixed at index creation; the name records it so a dimension change means a new index.
+  "vectorize": [{ "binding": "VECTORS", "index_name": "koozid-photos-512" }],
+
+  // Non-secret configuration. Set with `wrangler secret put` instead (kept out of git):
+  //   GEMINI_API_KEY
+  //   ALLOWED_EMAILS  second allowlist after Access, comma separated
+  //   ADMIN_EMAILS    who gets import/reindex/demo tools; empty = every allowed user
+  //   RESEND_API_KEY  Resend "Sending access" key for koozid.com (docs/DEPLOYMENT.md §8)
+  //   NOTIFY_EMAILS   who is emailed about new koozie offers; empty = ADMIN_EMAILS
+  "vars": {
+    "AUTH_MODE": "access",
+    "ACCESS_TEAM_DOMAIN": "https://<team>.cloudflareaccess.com",
+    "ACCESS_AUD": "<access-application-aud-tag>",
+    "SERVICE_TOKEN_CLIENT_IDS": "",    // Access service tokens allowed (scripts/backups), treated as admin
+    "AI_PROVIDER": "gemini",
+    "EMBEDDING_MODEL": "gemini-embedding-2",
+    "EMBEDDING_DIMS": "512",            // fits ~9,700 photos in Vectorize Free (5M stored dims); eval showed no recall loss vs 768
+    // Tried in order: an overloaded (503) or rate-limited model hands over to the next.
+    "DESCRIBE_MODEL": "gemini-3.5-flash-lite,gemini-flash-lite-latest,gemini-3.1-flash-lite",
+    "VECTOR_BACKEND": "vectorize",
+    "MATCH_STRONG": "0.94",            // from the Nov 2026 Gemini eval; recalibrate with real re-shoots
+    "MATCH_POSSIBLE": "0.85",
+    "AI_DAILY_LIMIT": "300",           // interactive AI calls per UTC day (scan + describe)
+    "AI_DAILY_REINDEX_LIMIT": "3000",  // bulk embedding calls per UTC day (imports/reindex)
+    "PUBLIC_CHECK_DAILY_LIMIT": "200", // guest "Do we have this one?" photo checks per UTC day
+    "PUBLIC_OFFER_DAILY_LIMIT": "100", // "Send a koozie" offers per UTC day
+    // Email via Resend (docs/DEPLOYMENT.md §8). Stays off until the RESEND_API_KEY secret exists;
+    // until then emails open in the collector's own mail app instead. Replies go to the From
+    // address, whose inbox is Zoho Mail. Who hears about new offers is the NOTIFY_EMAILS secret.
+    "EMAIL_PROVIDER": "resend",
+    "EMAIL_FROM": "Bobby at KoozID <bobby@koozid.com>"
+  }
+}

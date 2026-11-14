@@ -1,0 +1,8 @@
+// Test-only config: same bindings as production minus Vectorize (not emulated locally).
+{
+  "name": "koozid-test",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "d1_databases": [{ "binding": "DB", "database_name": "koozid", "database_id": "local", "migrations_dir": "migrations" }],
+  "r2_buckets": [{ "binding": "PHOTOS", "bucket_name": "koozid-photos" }]
+}
