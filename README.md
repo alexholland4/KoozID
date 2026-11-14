@@ -1,5 +1,7 @@
 # KoozID
 
+Photo search for a world-record koozie collection. Runs for $0/month on Cloudflare + Gemini.
+
 **Point a phone at a koozie and find out in seconds whether it's already in the collection.**
 
 Live at **[koozid.com](https://koozid.com)** · Runs for **$0/month** on Cloudflare + Gemini
@@ -10,20 +12,17 @@ Live at **[koozid.com](https://koozid.com)** · Runs for **$0/month** on Cloudfl
 
 ## The story
 
-Bobby is going for the world record for the largest koozie collection: 4,000 unique ones. Past a
-few hundred, one question gets hard to answer at a flea market table: *do I already have this one?*
+Bobby is going for the world record for the largest koozie collection: 4,000 unique ones. Past a few hundred, one question gets hard to answer, whether you're Bobby at a market table or one of the dozens of people sending him koozies from across the country: *is this koozie already in the collection?*
 
-So I built KoozID. Take a photo of a koozie and AI image search shows the closest matches already
-in the collection. If it's new, the description is written for you. Anyone can follow along
-publicly as the count climbs, browse every koozie, and send one in to be part of the record.
+So I built KoozID. Take a photo of a koozie and AI image search shows the closest matches already in the collection. If it's new, the information to catalog it is written for you. Anyone can follow along publicly as the count climbs, browse every koozie, and send one in to be part of the record.
 
 ## Highlights
 
-- **Photo search, not text search.** Multimodal embeddings find a koozie from a photo of its front *or* back.
+- **Intelligent photo search.** Multimodal embeddings find a koozie from a photo of its front or back.
 - **$0 to run.** Every service sits inside a free tier, with room for about 9,700 photos before anything costs money.
-- **AI-written descriptions** in the same style as the original spreadsheet, so the catalogue stays consistent.
+- **AI-written descriptions** in Bobby's tone, so the catalogue stays consistent.
 - **A count you can trust.** Saves are atomic and idempotent, so a double tap never counts a koozie twice.
-- **A public site that can't leak.** Guests get a separate read-only API. The private side sits behind login.
+- **A public site that can't leak.** Guests get a separate read-only API. The private side for him updating the collection sits behind login.
 - **Tested and measured.** 72 tests run in the real Workers runtime, and search accuracy was benchmarked before launch.
 
 ## Built for $0
