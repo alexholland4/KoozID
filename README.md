@@ -12,7 +12,7 @@ Live at **[koozid.com](https://koozid.com)** · Runs for **$0/month** on Cloudfl
 
 ## The story
 
-Bobby is going for the world record for the largest koozie collection: 4,000 unique ones. Past a few hundred, one question gets hard to answer, whether you're Bobby at a market table or one of the dozens of people sending him koozies from across the country: *is this koozie already in the collection?*
+Bobby is going for the world record for the largest koozie collection: 4,000 unique ones. Past a few hundred, one question gets hard to answer, whether you're Bobby at a market table or one of the many people sending him koozies from across the country: *is this koozie already in the collection?*
 
 So I built KoozID. Take a photo of a koozie and AI image search shows the closest matches already in the collection. If it's new, the information to catalog it is written for you. Anyone can follow along publicly as the count climbs, browse every koozie, and send one in to be part of the record.
 
